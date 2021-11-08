@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mosyuliia.github.io/my_home_work/15_task/sitemap.xml
