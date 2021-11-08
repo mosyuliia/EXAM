@@ -137,17 +137,21 @@ ul {
 a {
     color: rgb(238, 163, 248);
     text-decoration: none;
-    padding-left: 20px;
-    font-size: 16px;
+    border-radius: 7px;
+    border: 3px solid #fff;
+    padding: 5px 5px;
+    font-size: 20px;
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    background: rgb(75, 24, 62, .3);
 }
 
 body {
     background-position: center;
-    background: linear-gradient(90deg, #3a183f, #af0a4f);
+    background: linear-gradient(38deg, #00c5cc, #8b0bb3, #af0a4f);
 }
 
 li {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 
