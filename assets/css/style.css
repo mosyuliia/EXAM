@@ -99,7 +99,7 @@ html, body {
 .flex_box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .works {
@@ -127,10 +127,11 @@ ul {
     list-style: none;
     color: #fff;
     font-size: 26px;
+    text-align: center;
 }
 
 .number_work {
-    font-size: 18px;
+    font-size: 25px;
 }
 
 a {
