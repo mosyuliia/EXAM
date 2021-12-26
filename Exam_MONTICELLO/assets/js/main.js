@@ -158,8 +158,8 @@ $(function(){
         e.preventDefault();
         console.log("SEND FORM!");
 
-        const BOT_TOKEN = '5077142769:AAHpcWc9h4YdyoLRVu_Up_UuQ4kftDj0XDk';
-        const CHAT_ID = '5061620981';
+        const BOT_TOKEN = '5086459280:AAHChYLP9oXTZWPu9ZCd2u5ZCx2-X2vsA6I';
+        const CHAT_ID = '5070669728';
         let text = encodeURI("<b>Name:</b> "+$("#inputName").val()+"<b>Email:</b>" +$("#inputEmail").val());
 
         $.get(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=`+text+`&parse_mode=html`, (json)=>{
